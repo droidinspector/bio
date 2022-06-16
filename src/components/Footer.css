@@ -4,6 +4,7 @@
     background-color: #f18e59;
     position: fixed;
     bottom: 0;
+    z-index: 100;
 }
 
 .footer button {
