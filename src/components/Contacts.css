@@ -1,0 +1,6 @@
+.section-contacts {
+    width: calc(100% - 80px);
+    height: calc(100% - 80px);
+    padding: 40px;
+    background-color: #6eecf8;
+}

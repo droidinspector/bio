@@ -1,10 +1,13 @@
+import ScrollTo from './ScrollTo';
+import './Header.css';
+
 function Header() {
   return (
-    <nav>
-      <a href="#">About me</a>
-      <a href="#">My hobbies</a>
-      <a href="#">My future plans</a>
-      <a href="#">Contacts</a>
+    <nav className="header">
+      <ScrollTo toId="greeting">About me</ScrollTo>
+      <ScrollTo toId="hobbies">My hobbies</ScrollTo>
+      <ScrollTo toId="plans">My future plans</ScrollTo>
+      <ScrollTo toId="contacts">Contacts</ScrollTo>
     </nav>
   );
 }

@@ -1,6 +1,8 @@
+import './Contacts.css';
+
 function Contacts() {
   return (
-    <section>
+    <section className="section-contacts">
       Contacts
     </section>
   );

@@ -1,6 +1,8 @@
+import './Hobbies.css';
+
 function Hobbies() {
   return (
-    <section>
+    <section className="section-hobbies">
       Hobbies
     </section>
   );

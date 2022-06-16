@@ -1,6 +1,8 @@
+import './Greeting.css';
+
 function Greeting() {
   return (
-    <section>
+    <section className="section-greeting">
       Greeting
     </section>
   );

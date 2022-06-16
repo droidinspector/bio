@@ -1,6 +1,8 @@
+import './Plans.css';
+
 function Plans() {
   return (
-    <section>
+    <section className="section-plans">
       Plans
     </section>
   );
